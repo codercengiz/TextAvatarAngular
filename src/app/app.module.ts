@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { AvatartextDirective } from 'src/directives/avatartext.directive';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AvatartextDirective
   ],
   imports: [
     BrowserModule,
