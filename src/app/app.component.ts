@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'TextAvatarAngular';
+  title = 'Text Avatar Example Page';
+
+
+  exampleText:string="Example Text";
+
+  getText(){
+    return this.exampleText;
+  }
+
 }
