@@ -1,0 +1,2 @@
+# TextAvatarAngular
+Text Avatar
